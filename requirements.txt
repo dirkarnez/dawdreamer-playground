@@ -1,1 +1,1 @@
-bpy==5.0.0
+dawdreamer==0.8.3
