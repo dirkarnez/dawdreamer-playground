@@ -26,9 +26,9 @@ def main():
       print(f"✔️ Plugin loaded successfully")
       print(f"Inputs: {plugin.get_num_input_channels()}")
       print(f"Outputs: {plugin.get_num_output_channels()}")
-      # Try rendering
+
       engine.load_graph([
-         (guitar, []), 
+         
          (plugin, ["guitar"])])
       engine.render(5.0)
       audio = engine.get_audio()
